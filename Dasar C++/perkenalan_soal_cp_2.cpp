@@ -7,7 +7,7 @@ int main(){
     int N;
     cin >> N;
     vector <long long int> A;
-    long long int jumlah = 0;
+    long long int jumlah = 0;   //karena di soal ada batasan 0 < Ai < 10^8, kalau pakai int doang ga cukup
 
     for(int i = 0; i < N; i++){
         int x;
